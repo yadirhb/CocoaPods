@@ -41,6 +41,10 @@ To install release candidates run `[sudo] gem install cocoapods --pre`
 
 ##### Bug Fixes
 
+* Fixing the method recreate_user_scheme for targets other than type PBXNativeTarget.
+  [Yadir Hernandez](https://github.com/yadirhb)
+  [#531](https://github.com/CocoaPods/CocoaPods/issues/issue_number)
+
 * Deduplicate output path file names for resources and frameworks  
   [Eric Amorde](https://github.com/amorde)
   [#7259](https://github.com/CocoaPods/CocoaPods/issues/7259)
